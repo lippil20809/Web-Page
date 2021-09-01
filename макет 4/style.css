@@ -628,3 +628,227 @@ ul {
     text-align: center;
 
 }
+
+
+@media (max-width: 375px) {
+
+    header {
+
+        background-size: unset;
+        margin: unset;
+    }
+
+    .container {
+
+        max-width: 320px;
+
+    }
+
+    .header_logo {
+
+        margin-bottom: 130px;
+
+    }
+
+    .header_container {
+
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+    }
+
+    .header_text_2 h3 {
+
+        margin-bottom: 130px;
+
+    }
+
+    nav {
+
+        margin-bottom: 25px;
+
+    }
+
+    .nav_container {
+
+        padding: 16px 0 16px;
+
+    }
+
+
+   
+
+    .nav_logo {
+
+        display: none;
+
+    }
+
+    .nav_a {
+
+        margin-left: 15px;
+
+    }
+
+    .nav_a:nth-child(2n) {
+
+        margin-left: 10px;
+
+    }
+
+    .nav_a:nth-child(3n) {
+
+        margin-left: 10px;
+
+    }
+
+    .nav_a:last-of-type {
+
+        margin-left: 10px;
+        
+    }
+
+    .line {
+
+        margin-bottom: 25px;
+
+    }
+
+    .about_content_text h2 {
+
+        margin-bottom: 20px;
+
+    }
+
+    .about_content_text h3 {
+
+        margin-bottom: 20px;
+
+    }
+
+    .about {
+
+        margin-bottom: 20px;
+
+    }
+
+    .services_container_1 {
+
+        margin-bottom: 20px;
+
+    }
+
+    .about_content {
+
+        flex-direction: column;
+
+    }
+
+    .about_content_img {
+
+        flex-direction: column;
+
+    }
+
+    .about_img img {
+
+        width: 320px;
+        height: 224px;
+
+    }
+
+    .services_heading {
+
+        flex-direction: column;
+
+    }
+
+    .heading_line {
+
+        margin: 0 auto;
+
+    }
+
+    .services_heading h3 {
+
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: unset;
+        margin-right: unset;
+       
+    }
+
+
+    .services_content {
+
+        flex-direction: column;
+
+    }
+
+    .servic_content {
+
+        max-width: 320px;
+
+    }
+
+    .services_container_2 {
+
+        margin-bottom: 20px;
+
+    }
+
+    .newsletter_h2 {
+
+        display: none;
+
+    }
+
+   
+
+    .get-in-touch {
+
+        padding-top: 20px;
+        padding-bottom: 40px;
+        background-size: unset;
+    }
+
+    .footer_container {
+
+        flex-direction: column;
+
+    }
+
+    .company {
+
+        align-items: center;
+        width: 320px;
+
+    }
+
+    .links {
+
+        display: none;
+
+    }
+
+    .contact {
+
+        align-items: center;
+        margin-right: unset;
+        margin-top: 20px;
+
+    }
+
+    .socials {
+
+        justify-content: center;
+
+    }
+
+    .socials a:last-of-type {
+
+        margin-right: unset;
+
+    }
+
+}
